@@ -15,25 +15,25 @@ class FamilyStructure:
         # example list of members
         self._members = [
             {
-                "id": 1,
+                "id": self._generateId(),
                 "first_name": "John",
                 "last_name": self.last_name,
                 "age": 33,
-                "lucky_number": [7, 13, 22]
+                "lucky_numbers": [7, 13, 22]
             },
             {
-                "id": 2,
+                "id": self._generateId(),
                 "first_name": "Jane",
                 "last_name": self.last_name,
                 "age": 35,
-                "lucky_number": [10,14,3]
+                "lucky_numbers": [10,14,3]
             },
             {
-                "id": 3,
+                "id": self._generateId(),
                 "first_name": "Jimmy",
                 "last_name": self.last_name,
                 "age": 5,
-                "lucky_number": [1]
+                "lucky_numbers": [1]
             }
         ]
 
